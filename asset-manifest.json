@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/cryptovisor-frontend/static/css/main.b68ef03e.chunk.css",
-    "main.js": "/cryptovisor-frontend/static/js/main.9a637a58.chunk.js",
-    "main.js.map": "/cryptovisor-frontend/static/js/main.9a637a58.chunk.js.map",
+    "main.js": "/cryptovisor-frontend/static/js/main.f76ff3b5.chunk.js",
+    "main.js.map": "/cryptovisor-frontend/static/js/main.f76ff3b5.chunk.js.map",
     "runtime-main.js": "/cryptovisor-frontend/static/js/runtime-main.32149305.js",
     "runtime-main.js.map": "/cryptovisor-frontend/static/js/runtime-main.32149305.js.map",
     "static/js/2.25146a57.chunk.js": "/cryptovisor-frontend/static/js/2.25146a57.chunk.js",
@@ -23,6 +23,6 @@
     "static/js/runtime-main.32149305.js",
     "static/js/2.25146a57.chunk.js",
     "static/css/main.b68ef03e.chunk.css",
-    "static/js/main.9a637a58.chunk.js"
+    "static/js/main.f76ff3b5.chunk.js"
   ]
 }
