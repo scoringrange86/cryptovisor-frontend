@@ -81,13 +81,13 @@ function Cryptovisor() {
   const myMediaQuery = useMediaQuery('(min-width: 1000px)');
   return (
 
-    <Router>
+    <Router basename={process.env.PUBLIC_URL}> 
       
         <div className="App">
           <div className="App-wrapper">
           <div style = {{ display: 'block'}}>
-    <h4> Real useMediaQuery Component</h4>
-    <span> {`Is Screen at Minimum 1000px: ${myMediaQuery}`}</span>
+    {/* <h4> Real useMediaQuery Component</h4> */}
+    {/* <span> {`Is Screen at Minimum 1000px: ${myMediaQuery}`}</span> */}
    </div>
           <header>
             <Navbar click={() => setSideToggle(true)} />

@@ -14,7 +14,18 @@ function displayInfo (res) {
 
 const RightPanel = () => {
 
-    const [articles, setArticles] = useState([]) 
+    const [articles, setArticles] = useState([
+            {title: "Bitcoin is on the Rise! #Static",
+             author: "Steve Roberts",
+             timeStamp: "2 hours ago",
+               message: "Bitcoin is posed for a great weekend. It is closing out on a high of $55k for the month. If you’re bullish on bitcoin, this might be your big “I told you so moment”. Pack your bags!" , 
+               id: 1 }, 
+            {title: "New Bitcasino Game Offers  Chance to Win Tesla #Static", 
+            author: "Steve Roberts", 
+            timeStamp: "4 days ago", 
+            message: "Crypto gaming innovators, Bitcasino, have launched one of their biggest giveaways to date and will reward 3 lucky players with.." , 
+            id: 2}
+    ]) 
 
     useEffect ( () => {
         fetch('http://localhost:5000/api/articles/News')
