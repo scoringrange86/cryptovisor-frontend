@@ -48,3 +48,8 @@ const LeftPanel = () => {
 }
 
 export default LeftPanel
+
+
+
+
+// Data needs to be dynamically loaded

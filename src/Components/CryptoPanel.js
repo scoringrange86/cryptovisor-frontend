@@ -37,6 +37,8 @@ const CryptoPanel = () => {
     
     );
 
+    // adjust panel size based on screen width
+
     const [coins, setCoins] = useState(
         [
             { symbol: "BTC/USD", percentChange: "%2.75", price: "$50,000", positiveChange: false, id: 1 },
@@ -45,7 +47,7 @@ const CryptoPanel = () => {
             { symbol: "BTC/USD", percentChange: "%2.75", price: "$50,000", positiveChange: false, id: 4 },
             { symbol: "XRP/USD", percentChange: "%.05", price: "$1.04", positiveChange: true, id: 5 },
             { symbol: "USDC/USD", percentChange: "%1.15", price: "$1.00", positiveChange: true, id: 6 },
-            { symbol: "BTC/USD", percentChange: "%2.75", price: "$50,000", positiveChange: false, id: 7 }
+            // { symbol: "BTC/USD", percentChange: "%2.75", price: "$50,000", positiveChange: false, id: 7 }
         ]
 
     )

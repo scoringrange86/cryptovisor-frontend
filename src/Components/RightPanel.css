@@ -68,7 +68,7 @@
 
 .article-title {
     box-sizing: border-box; 
-    font-size: 30px;
+    font-size: 1.875em;
     font-weight: bold;
     text-decoration: none;
     text-align: left;
@@ -84,6 +84,7 @@ a.article-title:active {
 }
 
 .article-signature {
+    font-size: 1em;
     display: flex;
     flex-direction: row;
     margin-top: 4px;
@@ -97,25 +98,25 @@ a.article-title:active {
 }
 
 .article-author-by {
-    font-size: 16px;
-    line-height: 22px;
+    /* font-size: 1em; */
+    line-height: 1.35em;
     color: #4E463B;
     box-sizing: border-box; 
 
 }
 
 .article-author-name {
-    font-size: 16px;
-    line-height: 22px;
+    /* font-size: 1em; */
+    line-height: 1.35em;
     /* color: #CA851E; */
-    margin-left: 5px;
+    margin-left: .4em;
     box-sizing: border-box; 
 
 }
 
 .article-author-time {
-    font-size: 16px;
-    line-height: 22px;
+    /* font-size: 1em; */
+    line-height: 1.35em;
     color: #4E463B;
     margin-left: 10px;
     box-sizing: border-box; 
@@ -124,10 +125,10 @@ a.article-title:active {
 
 .article-message {
     box-sizing: border-box; 
-    font-size: 20px;
-    line-height: 27px;
+    font-size: 1.25em;
+    line-height: 1.2em;
     /* color: #CA851E; */
-    margin-top: 20px;
+    margin-top: 1.2em;
     text-align: left;
     font-weight: normal;
 }
@@ -143,8 +144,8 @@ a.article-title:active {
     text-decoration: none;
     background: linear-gradient(142.96deg, rgba(5, 5, 5, 0.6) 15.96%, rgba(19, 19, 19, 0.8) 83.29%);
     border: 1px solid rgba(86, 86, 86, 0.3);
-    width: 100%;
-    padding: 16px 422px;
+    /* width: 70%; */
+    padding: 1em 26.375em;
     border-radius: 10px;
     margin-top: 35px;
     margin-right: 10px;
@@ -162,6 +163,10 @@ button.right-panel-btn:active {
     .rightpanel-wrapper {
         max-width: 780px;
     }
+
+    .right-panel-btn {
+        padding: 1em 24.375em;
+    }
 }
 
 @media (max-width: 1000px){
@@ -170,13 +175,20 @@ button.right-panel-btn:active {
         /* max-width: 700px; */
     }
 }
-/* Get image height to give proper ration while having full width  */
-@media (max-width: 780px){
+/* Get image height to give proper ratio while having full width  */
+@media (max-width: 800px){
     .article-wrapper {
-        /* max-width: 700px; */
+        max-width: 700px;
         flex-direction: column;
     }
+    .article-title {
+        font-size: 1.8em;
+    }
+    .article-signature {
+        font-size: .9em;
+    }
     .article-message {
+        font-size: 1.1em;
         max-width: 650px;
     }
     .img-btn {
@@ -193,19 +205,73 @@ button.right-panel-btn:active {
 
 @media (max-width: 700px){
     .rightpanel-wrapper {
-        /* max-width: 630px; */
+        max-width: 630px;
     }
 
     .article-message {
-        width: 100%;
+        max-width: 575px;
+    }
+
+    .article-signature {
+        font-size: .85em;
+    }
+
+    .article-title {
+        font-size: 1.7em;
     }
 }
 
-/* @media (max-width: 470px){
+@media (max-width: 620px){
     .article-message {
-        display: none; 
+        max-width: 530px;
+        font-size: .95em;
     }
-} */
+    .article-signature {
+        font-size: .8em;
+    }
+
+    .article-title {
+        font-size: 1.55em;
+    }
+}
+
+@media (max-width: 585px){
+    .article-message {
+        max-width: 495px;
+        font-size: .85em;
+    }
+    .article-signature {
+        font-size: .7em;
+    }
+    .article-title {
+        font-size: 1.475em;
+    }
+}
+
+@media (max-width: 550px){
+    .article-message {
+        max-width: 475px;
+        font-size: .75em;
+    }
+    .article-signature {
+        font-size: .6em;
+    }
+}
+
+@media (max-width: 520px){
+    .article-message {
+        max-width: 450px;
+        font-size: .65em;
+    }
+}
+
+
+@media (max-width: 500px){
+    .article-message {
+        max-width: 435px;
+        font-size: .6em;
+    }
+}
 
 @media (max-width: 470px){
     .article-message {
